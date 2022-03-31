@@ -1,0 +1,13 @@
+@       IN SOA  servidor3.daanez.com. root@daanez.com. (
+                                        0       ; serial
+                                        1D      ; refresh
+                                        1H      ; retry
+                                        1W      ; expire
+                                        3H )    ; minimum
+@       IN      NS      servidor3.daanez.com.
+@       IN      NS      servidor2.daanez.com.
+
+;host en la zona
+4       IN      PTR     servidor3.daanez.com.
+3       IN      PTR     servidor2.daanez.com.
+2       IN      PTR     firewall.daanez.com.
